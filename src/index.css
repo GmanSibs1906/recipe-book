@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  width: full;
+  height: 30px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.navLogo {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navLinks {
+  display: flex;
+}
+
+.navLinks span {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+
+/* HOME PAGE */
+
+.homeContainer {
+  background-image: url('./images/foodBg.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer {
+  height: 150px;
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f623;
+  border-radius: 20px;
+}
