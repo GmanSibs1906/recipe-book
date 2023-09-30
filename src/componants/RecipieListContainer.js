@@ -7,7 +7,7 @@ function RecipieListContainer({title, image, id}) {
       <img src={image} alt='' />
       <div>
         <h5>{title}</h5>
-        <Link to="/recipieDetails">
+        <Link to={`/recipieDetails/${id}`}>
         <button> View Recipie </button>
         </Link>
       </div>

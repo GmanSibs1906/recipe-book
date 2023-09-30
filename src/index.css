@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -109,4 +110,37 @@ code {
   justify-content: center;
   align-items: center;
   margin: 0 0 20px 0
+}
+
+/* Recipe Details Card */
+.recipieDetails{
+  padding: 5% 20%;
+}
+
+.recipieDetailsCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5% 0;
+  border: #242424 2px solid;
+  padding: 5%;
+  border-radius: 15px;
+}
+
+.recipieDetailsCard img{
+  max-width: 30%;
+}
+
+.recipieDetailsCard h5{
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.recipieDetailsCard p{
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 5%;
 }

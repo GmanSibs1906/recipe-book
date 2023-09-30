@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recipieList" element={<RecipieList />} />
-        <Route path="/recipieDetails" element={<RecipieDetails />}/>
+        <Route path="/recipieDetails/:id" element={<RecipieDetails />}/>
       </Routes>
     </Router>
   );
