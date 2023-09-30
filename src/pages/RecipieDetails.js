@@ -3,10 +3,9 @@ import { recipeDataList } from '../data/recipieData';
 import RecipieDetailsCard from '../componants/RecipieDetialsCard';
 import { useParams } from 'react-router-dom';
 
-function RecipieDetails({ title, image, id, recipe }) {
+function RecipieDetails() {
     const params = useParams();
     return (
-
         <div className="recipieDetails">
             <p>This is the id : {params.id}</p>
             <div className="recipieList">
