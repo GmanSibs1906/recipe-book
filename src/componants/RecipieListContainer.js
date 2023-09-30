@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 function RecipieListContainer({title, image, id}) {
   return (
@@ -6,7 +7,9 @@ function RecipieListContainer({title, image, id}) {
       <img src={image} alt='' />
       <div>
         <h5>{title}</h5>
+        <Link to="/recipieDetails">
         <button> View Recipie </button>
+        </Link>
       </div>
     </div>
   )
